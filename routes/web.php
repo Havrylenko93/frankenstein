@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/getTempUrl', 'TempController@index');
+Route::get('/tmp', 'TempController@test')->name('tmp');
