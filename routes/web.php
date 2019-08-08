@@ -15,5 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('twilio', function() {
+    return view('testTwilio');
+})->name('twilio');
+
 Route::get('/getTempUrl', 'TempController@index');
 Route::get('/tmp', 'TempController@test')->name('tmp');
+
+Route::post('sendSms', 'TestTwilioController');
