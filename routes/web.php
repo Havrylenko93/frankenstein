@@ -23,3 +23,7 @@ Route::get('/getTempUrl', 'TempController@index');
 Route::get('/tmp', 'TempController@test')->name('tmp');
 
 Route::post('sendSms', 'TestTwilioController');
+
+
+
+Route::get('/debugbar', 'TempController@testDebugbar');
