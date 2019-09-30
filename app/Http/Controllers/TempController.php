@@ -26,7 +26,7 @@ class TempController extends Controller
     {
         Penguin::all();
         \Debugbar::info('Punks not dead');
-        
+
         return 'qwe';
     }
 }

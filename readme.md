@@ -1,3 +1,7 @@
+See what dependencies can be updated
+
+``composer outdated``
+
 ``composer diagnose``
 
 ``composer show --tree``
