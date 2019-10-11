@@ -32,3 +32,9 @@ _____________________________________________________________________
 ``php artisan ide-helper:generate``
 
 _____________________________________________________________________
+
+Show PHP available extensions (CLI or CGI)
+``php -m``
+
+Returns the type of interface between web server and PHP
+``php_sapi_name()``
