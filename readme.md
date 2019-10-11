@@ -38,3 +38,10 @@ Show PHP available extensions (CLI or CGI)
 
 Returns the type of interface between web server and PHP
 ``php_sapi_name()``
+
+_____________________________________________________________________
+Change git user name/email:
+
+``git config --global user.name "Havrylenko"``
+
+``git config --global user.email "gavrilenko.php@gmail.com"``
